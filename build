@@ -1,0 +1,27 @@
+g++ -Wall -W -c -O3 src/bilinear.cpp
+g++ -Wall -W -c -O3 src/ddot.cpp
+g++ -Wall -W -c -O3 src/getix.cpp
+g++ -Wall -W -c -O3 src/interpolate_kernel_ext.cpp
+g++ -Wall -W -c -O3 src/interpolate_kernel_fij.cpp
+g++ -Wall -W -c -O3 src/lognorm.cpp
+g++ -Wall -W -c -O3 src/optichar.cpp
+g++ -Wall -W -c -O3 src/read_fixkernel_fij_bin.cpp
+g++ -Wall -W -c -O3 src/read_fixkernel_ext_bin.cpp
+g++ -Wall -W -c -O3 src/simpson.cpp
+g++ -Wall -W -c -O3 src/spline_grid.cpp
+g++ -Wall -W -c -O3 src/spline_nag.cpp
+g++ -Wall -W -O3 src/test_optichar.cpp \
+bilinear.o \
+ddot.o \
+getix.o \
+interpolate_kernel_ext.o \
+interpolate_kernel_fij.o \
+lognorm.o \
+optichar.o \
+read_fixkernel_fij_bin.o \
+read_fixkernel_ext_bin.o \
+simpson.o \
+spline_grid.o \
+spline_nag.o \
+-o run
+rm *.o
