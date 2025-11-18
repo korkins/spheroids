@@ -1,0 +1,10 @@
+g++ -Wall -W -c -O3 read_Rkernel_fix.cpp
+g++ -Wall -W -c -O3 read_Rkext_fix.cpp
+g++ -Wall -W -c -O3 write_Rkernel_fix_bin.cpp
+g++ -Wall -W -c -O3 write_Rkext_fix_bin.cpp
+g++ -Wall -W -c -O3 read_fixkernel_fij_bin.cpp
+g++ -Wall -W -c -O3 read_fixkernel_ext_bin.cpp
+g++ -Wall -W -c -O3 main_convert_kernels.cpp
+
+g++ -Wall -W -O3 *.o -o conker
+rm *.o
