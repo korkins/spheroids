@@ -1,5 +1,5 @@
 # Summary of Changes in Light Single Scattering Simulation (DLS package)
-[ The text below comes, with minimal corrections, from Appendix to Jethva et al., "Ground-based MFRSR UV-Vis spectral retrievals of Saharan dust absorption at Izaña Observatory", Egusphere 2025, 4890, doi: https://doi.org/10.5194/egusphere-2025-4890 ]
+[ The text below comes, with minimal changes, from Appendix to Jethva et al., "Ground-based MFRSR UV-Vis spectral retrievals of Saharan dust absorption at Izaña Observatory", Egusphere 2025, 4890, doi: https://doi.org/10.5194/egusphere-2025-4890 ]
 
 The Appendix summarizes our simplifications implemented in the original DLS reader/interpolator (Dubovik et al., 2006) that improved the MFRSR algorithm’s performance. In what follows, DLS refers to the original package; our reader/interpolator is referred to as the API (Application Programming Interface).
 
